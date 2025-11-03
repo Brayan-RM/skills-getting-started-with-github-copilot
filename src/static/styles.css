@@ -142,3 +142,36 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: disc inside;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.participants-list li {
+  background-color: #f1f8ff;
+  color: #08306b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: block; /* keep bullets aligned with blocks */
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+  padding: 4px 0;
+}
